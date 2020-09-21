@@ -6,35 +6,43 @@
 * [MMO-ExternalAccounts](https://mmo-zone.info/dbtech-ecommerce/mmo-external-accounts.48/)
 
 ## Актуальная версия
-  * XenForo v2.1.8 Patch 2
-  * [MMO] External Accounts 2.1.3
+  * XenForo v2.1.11
+  * [MMO] External Accounts 2.1.6
 
 ## Описание плагина
 Дополнение позволит Вашим пользователям входить в систему и регистрироваться на форуме, используя свои учетные записи сервисов:
-  - ВКонтакте
-  - Twitch
-  - Instagram
-  - Одноклассники
-  - SoundCloud
-  - DeviantArt
-  - Strava
-  - Pinterest
-  - Reddit
-  - Tumblr
-  - Vimeo
-  - Amazon
-  - BitBucket
-  - Spotify
-  - Yandex
-  - Dropbox
-  - Slack
-  - ToDoIst
-  - Patreon
-  - Dribbble
-  - DailyMotion
-  - Mail.ru
-  - PayPal (Необходим бизнес аккаунт. Сервис не проверялся)
-  - BigCartel (Не проверялся, т. к. платная регистрация)
-  - Deezer
-  - Bitly
-  - Bungie
+- Amazon
+- Apple
+- BigCartel - не проверял, т.к. регистрация платная
+- Bitbucket
+- Bitly
+- Box
+- Buffer
+- Bungie
+- Daily motion
+- Deezer
+- DeviantArt
+- Dribbble
+- Dropbox
+- Heroku
+- Instagram
+- Mail.ru
+- Mixcloud
+- Odnoklassniki
+- Patreon
+- PayPal - мы не обладаем бизнес-аккаунтов и сервис не был проверен
+- Pinterest
+- Reddit
+- Slack
+- Soundcloud
+- Spotify
+- Strava
+- ToDoIst
+- Tumblr
+- Twitch
+- Vimeo
+- Vkontakte
+- Yandex
+
+## Ссылки
+* [MMO External Accounts](https://mmo-zone.info/store/mmo-external-accounts.48/)
