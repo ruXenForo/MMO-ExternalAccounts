@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="MMO/ExternalAccounts" base_version_id="2010370" export_version="2">
-  <phrase title="api_scope.arbitration_read" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Обложки просмотра арбитража и их содержание.]]></phrase>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="MMO/ExternalAccounts" base_version_id="2010670" export_version="2">
   <phrase title="con_acc.mea_amazon" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Amazon]]></phrase>
+  <phrase title="con_acc.mea_apple" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[Apple]]></phrase>
   <phrase title="con_acc.mea_bigcartel" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[BigCartel]]></phrase>
   <phrase title="con_acc.mea_bitbucket" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[BitBucket]]></phrase>
   <phrase title="con_acc.mea_bitly" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Bitly]]></phrase>
@@ -13,6 +13,7 @@
   <phrase title="con_acc.mea_deviantart" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[DeviantArt]]></phrase>
   <phrase title="con_acc.mea_dribbble" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Dribbble]]></phrase>
   <phrase title="con_acc.mea_dropbox" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[DropBox]]></phrase>
+  <phrase title="con_acc.mea_heroku" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[Heroku]]></phrase>
   <phrase title="con_acc.mea_instagram" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Instagram]]></phrase>
   <phrase title="con_acc.mea_mailru" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Mail.ru]]></phrase>
   <phrase title="con_acc.mea_mixcloud" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[MixCloud]]></phrase>
@@ -32,6 +33,7 @@
   <phrase title="con_acc.mea_vkontakte" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[VK]]></phrase>
   <phrase title="con_acc.mea_yandex" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Yandex]]></phrase>
   <phrase title="con_acc_desc.mea_amazon" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
+  <phrase title="con_acc_desc.mea_apple" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_bigcartel" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_bitbucket" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_bitly" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
@@ -43,6 +45,7 @@
   <phrase title="con_acc_desc.mea_deviantart" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_dribbble" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_dropbox" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
+  <phrase title="con_acc_desc.mea_heroku" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_instagram" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_mailru" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
   <phrase title="con_acc_desc.mea_mixcloud" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[]]></phrase>
@@ -87,6 +90,8 @@
   <phrase title="con_acc_mea_dribbble_client_secret_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Секрет (secret) приложения Dribbble, созданного для этого домена]]></phrase>
   <phrase title="con_acc_mea_dropbox_app_id_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Идентификатор (ID), связанный с Вашим <a href="https://dropbox.com/developers/apps" target="_blank">приложением Dropbox</a> для этого домена.]]></phrase>
   <phrase title="con_acc_mea_dropbox_app_secret_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Секрет (secret) приложения Dropbox, созданного для этого домена.]]></phrase>
+  <phrase title="con_acc_mea_heroku_client_id_explain" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[Ввод идентификатора клиента позволит пользователям входить в систему, используя свои учетные записи Heroku. Вы можете получить идентификатор клиента через <a href="https://dashboard.heroku.com/account/applications#api_clients" target="_blank">Процесс подачи заявки</a>]]></phrase>
+  <phrase title="con_acc_mea_heroku_client_secret_explain" addon_id="MMO/ExternalAccounts" version_id="2010670" version_string="2.1.6"><![CDATA[Секрет, соответствующий вашему идентификатору клиента Heroku]]></phrase>
   <phrase title="con_acc_mea_instagram_client_id_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Ввод идентификатора клиента (client ID) позволит пользователям войти в систему, используя свои учетные записи Instagram. Вы можете получить идентификатор клиента (client ID) через <a href="https://instagram.com/developer/register/" target="_blank">процесс подачи заявления в Instagram</a>]]></phrase>
   <phrase title="con_acc_mea_instagram_client_secret_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Секрет (secret), соответствующий Вашему идентификатору в Instagram]]></phrase>
   <phrase title="con_acc_mea_mailru_client_id_explain" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Ввод идентификатора клиента (client ID) позволит пользователям войти в систему, используя свои учетные записи Mail.ru. Вы можете получить идентификатор клиента (client ID) через <a href="https://api.mail.ru/sites/my/add" target="_blank">процесс подачи заявления в Mail.ru</a>]]></phrase>
@@ -128,7 +133,6 @@
   <phrase title="mea_not_connected_accounts" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Не связанные аккаунты]]></phrase>
   <phrase title="mea_registration_disabled" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Обычная регистрация была отключена. Пожалуйста, зарегистрируйтесь, используя одного из провайдеров.]]></phrase>
   <phrase title="mea_user_is_not_associated_with_any_of_selected_connected_account_providers" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Пользователь не связан ни с одним из выбранных подключенных поставщиков учетных записей]]></phrase>
-  <phrase title="mes_blogger" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Blogger]]></phrase>
   <phrase title="option.mea_force_registration" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Требовать регистрации через внешние аккаунты]]></phrase>
   <phrase title="option_explain.mea_force_registration" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[Заставить новых пользователей зарегистрироваться, используя свою внешнюю учетную запись. Это не мешает существующим пользователям входить через стандартную аутентификацию по имени пользователя и паролю.]]></phrase>
   <phrase title="option_group.mea_external_accounts" addon_id="MMO/ExternalAccounts" version_id="2010370" version_string="2.1.3"><![CDATA[[MMO] External Accounts]]></phrase>
